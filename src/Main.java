@@ -24,25 +24,26 @@ public class Student {
 
     public static double getAvgRating() {
         // TODO return average rating of all students
-        return 0;
+        /*return this.rating;*/
     }
 
     public String getName() {
-        return name;
+        /*return this.name;*/
     }
 
     public void setName(String name) {
         /*Scanner scannername = new Scanner(in);
         String name = scannername.nextLine();
-        scannername.close();// TODO set student's name*/
+        scannername.close();// TODO set student's name
+        this.rating = rating;*/
     }
 
     public int getRating() {
-        return rating;
+        /*return this.rating;*/
     }
 
     public void setRating(int rating) {
-        // TODO initialize rating;
+        /*this.rating = rating;// TODO initialize rating;*/
     }
 
     public boolean betterStudent(Student student) {
