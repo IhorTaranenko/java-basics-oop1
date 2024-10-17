@@ -5,7 +5,7 @@ public class Student {
     int rating;
     private String name;
 
-    private class Student;// TODO implement Student class according to the instructions provided in the README.md file
+    private class Student; // TODO implement Student class according to the instructions provided in the README.md file
         private static name;
             Scanner scannername = new Scanner(in);
             String name = scannername.nextLine();
@@ -19,11 +19,11 @@ public class Student {
     public Student(String name) {
         Scanner scannername = new Scanner(in);
         String name = scannername.nextLine();
-        scannername.close();//TODO initialize name
+        scannername.close(); // TODO initialize name
     }
 
     public static double getAvgRating() {
-        // TODO return average rating of all students
+         // TODO return average rating of all students
         return this.rating;
     }
 
@@ -34,7 +34,7 @@ public class Student {
     public void setName(String name) {
         Scanner scannername = new Scanner(in);
         String name = scannername.nextLine();
-        scannername.close();// TODO set student's name
+        scannername.close(); // TODO set student's name
         this.rating = rating;
     }
 
@@ -43,18 +43,18 @@ public class Student {
     }
 
     public void setRating(int rating) {
-        this.rating = rating;// TODO initialize rating;
+        this.rating = rating; // TODO initialize rating;
     }
 
     public boolean betterStudent(Student student) {
-        double rating = (student1 < student2 ? student2 : student1)// TODO return the result of comparing this.student's rating with the student's rating
+        double rating = (student1 < student2 ? student2 : student1) // TODO return the result of comparing this.student's rating with the student's rating
         return false;
     }
 
     public void changeRating(int rating) {
         Scanner scannerrating = new Scanner(in);
         int rating = scannerrating.nextInt();
-        scannerrating.close();// TODO change this student's rating and average rating of all students
+        scannerrating.close(); // TODO change this student's rating and average rating of all students
     }
 
     public static void removeStudent(Student student) {
